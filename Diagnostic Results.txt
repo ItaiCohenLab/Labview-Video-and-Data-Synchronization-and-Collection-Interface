@@ -1,0 +1,68 @@
+3/22/2024 11:15:40 AM
+
+Results saved to:  C:\Users\Cohen Lab\Documents\Diagnostic Results.txt
+
+Selected Device: Dev1
+
+Device Type: PCI-6259
+
+Serial Number: 12C86A5
+
+Device Support: (PASS)
+
+NI-DAQmx Version: 23.5 (PASS)
+
+Device Reset: (PASS)
+
+The device was last self-calibrated on: 11/12/2011 2:21:46 PM
+
+Device calibration skipped.
+
+
+
+-------------------- Testing Counters... --------------------
+
+Testing CTR Buffered Pulse Generation...   (PASS)
+
+Testing CTR Single Pulse Generation...   (PASS)
+
+
+
+-------------------- Testing Analog Input... --------------------
+
+Testing AI Ground Reference...   (PASS)
+
+Testing AI Voltage Reference...   (PASS)
+
+Testing AI Finite Sample Clock...   (PASS)
+
+Testing AI Finite Sample Clock Frequency...   (PASS)
+
+
+
+-------------------- Testing Analog Output... --------------------
+
+Testing AO Finite Sample Clock...   (PASS)
+
+Testing AO Finite Sample Clock Frequency...   (PASS)
+
+Testing AO Single Point...   (FAIL)
+************ Test FAILED for the following reason ************
+This test failed to output 4.000000 Volts on Dev1/ao3.  The actual value written was -0.430334.
+*******************************************************
+
+Testing AO Accuracy...   (FAIL)
+************ Test FAILED for the following reason ************
+This test failed to generate a voltage waveform with an error of less than 0.038104 Volts on Dev1/ao3.  The actual average error was 3.696730 Volts.
+*******************************************************
+
+
+
+-------------------- Testing Digital IO... --------------------
+
+Testing DIO Lines...   (PASS)
+
+Testing DIO Ports...   (PASS)
+
+ ----- DIAGNOSTIC TEST COMPLETE ----- 
+
