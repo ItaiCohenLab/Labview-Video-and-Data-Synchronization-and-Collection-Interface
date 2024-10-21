@@ -12,10 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="acquisition test fixed exposure 6.vi" Type="VI" URL="../acquisition test fixed exposure 6.vi"/>
 		<Item Name="AskForExperimentName.vi" Type="VI" URL="../AskForExperimentName.vi"/>
 		<Item Name="CameraDisplay.vi" Type="VI" URL="../CameraDisplay.vi"/>
-		<Item Name="ChannelNamingExample.vi" Type="VI" URL="../ChannelNamingExample.vi"/>
 		<Item Name="CheckExposure.vi" Type="VI" URL="../CheckExposure.vi"/>
 		<Item Name="Codec Selector (SubVi).vi" Type="VI" URL="../Codec Selector (SubVi).vi"/>
 		<Item Name="Confirm Disable Buffering (SubVI).vi" Type="VI" URL="../Confirm Disable Buffering (SubVI).vi"/>
@@ -29,13 +27,9 @@
 		<Item Name="Plot2.vi" Type="VI" URL="../Plot2.vi"/>
 		<Item Name="Plot3.vi" Type="VI" URL="../Plot3.vi"/>
 		<Item Name="Plot4.vi" Type="VI" URL="../Plot4.vi"/>
-		<Item Name="ResampleWaveforms.vi" Type="VI" URL="../ResampleWaveforms.vi"/>
 		<Item Name="RunNext.vi" Type="VI" URL="../RunNext.vi"/>
 		<Item Name="ShowAsynchAndReserve (SubVI).vi" Type="VI" URL="../ShowAsynchAndReserve (SubVI).vi"/>
-		<Item Name="SimpleFuncGen.vi" Type="VI" URL="../SimpleFuncGen.vi"/>
-		<Item Name="SubpanelControlExample.vi" Type="VI" URL="../SubpanelControlExample.vi"/>
 		<Item Name="TDMS Optimizations (SubVI).vi" Type="VI" URL="../TDMS Optimizations (SubVI).vi"/>
-		<Item Name="Untitledn.vi" Type="VI" URL="../Untitledn.vi"/>
 		<Item Name="XY1.vi" Type="VI" URL="../XY1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -139,7 +133,6 @@
 				<Item Name="DAQmx Create Channel (TEDS-AI-Voltage-Custom with Excitation).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Voltage-Custom with Excitation).vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
-				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
@@ -285,13 +278,10 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
-				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
-				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
 				<Item Name="DWDT Get Waveform Time Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Time Array.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
-				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -306,7 +296,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -317,7 +306,6 @@
 				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
@@ -364,10 +352,8 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
@@ -397,11 +383,9 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
-				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
 				<Item Name="Waveform Time to Date Time String.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/Waveform Time to Date Time String.vi"/>
 				<Item Name="WDT Append Waveforms CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CDB.vi"/>
 				<Item Name="WDT Append Waveforms CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CXT.vi"/>
@@ -410,7 +394,6 @@
 				<Item Name="WDT Append Waveforms I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I16.vi"/>
 				<Item Name="WDT Append Waveforms I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I32.vi"/>
 				<Item Name="WDT Append Waveforms I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I64.vi"/>
-				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
 				<Item Name="WDT Get Waveform Time Array DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Time Array DBL.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
 				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
@@ -419,7 +402,6 @@
 				<Item Name="WDT Number of Waveform Samples I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I16.vi"/>
 				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
-				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -434,10 +416,8 @@
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="ExposureDelay (SubVI).vi" Type="VI" URL="../ExposureDelay (SubVI).vi"/>
 			<Item Name="GetAVICodecs.vi" Type="VI" URL="../GetAVICodecs.vi"/>
-			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/High Resolution Timer Helper.vi"/>
 			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="../High Resolution Timer Helper.vi"/>
 			<Item Name="IfSyncedCompatible.vi" Type="VI" URL="../IfSyncedCompatible.vi"/>
-			<Item Name="Increment Filename.vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Increment Filename.vi"/>
 			<Item Name="Increment Filename.vi" Type="VI" URL="../Increment Filename.vi"/>
 			<Item Name="InitializeTDMS.vi" Type="VI" URL="../InitializeTDMS.vi"/>
 			<Item Name="IsWidthRingCompatible.vi" Type="VI" URL="../IsWidthRingCompatible.vi"/>
@@ -468,23 +448,99 @@
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="Tag-c(bool,i32,str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-c(bool,i32,str).lvlib"/>
 			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
-			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Poly).vi"/>
 			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="../TDMS File Initialization (Poly).vi"/>
-			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Read).vi"/>
 			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="../TDMS File Initialization (Read).vi"/>
 			<Item Name="TDMS File Initialization (Write).vi" Type="VI" URL="../TDMS File Initialization (Write).vi"/>
 			<Item Name="TDMS Global.vi" Type="VI" URL="../TDMS Global.vi"/>
 			<Item Name="TDMS Read Data.ctl" Type="VI" URL="../TDMS Read Data.ctl"/>
-			<Item Name="TDMS Read File.vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read File.vi"/>
 			<Item Name="TDMS Read File.vi" Type="VI" URL="../TDMS Read File.vi"/>
-			<Item Name="TDMS Start New File.vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
 			<Item Name="TDMS Start New File.vi" Type="VI" URL="../TDMS Start New File.vi"/>
-			<Item Name="TDMS Write File.vi" Type="VI" URL="/../Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write File.vi"/>
 			<Item Name="TDMS Write File.vi" Type="VI" URL="../TDMS Write File.vi"/>
 			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../TDMS Write Settings.ctl"/>
-			<Item Name="TDMStoAVIGUI.vi" Type="VI" URL="../TDMStoAVIGUI.vi"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="GUI2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{410BC89E-8E41-4560-BF21-52D768D283E6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7B08700B-61DE-4D7E-A756-3EA47DA531EB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{156C46EA-08D4-4E32-8636-780D9E4E17F1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GUI2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6CDC3062-DB1D-418F-93C1-6EDCC7A3966C}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI2/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8D3D9E97-C5F5-4FB4-86EE-5F65DC765E26}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI2.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Cornell University</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI2</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Cornell University</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3962421F-007E-437A-9FA9-73CCC49AEBAE}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GUI22" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5507CFD9-9DEA-45D5-A586-22178F526D30}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BC942A05-569F-46DA-BCF2-4CE316B98057}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1F20F11A-2033-4FAC-A297-89D28EE55B03}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI22</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GUI22</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EE8184B3-A348-4DF2-8349-71B54EA26310}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DataAcquisition.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI22/DataAcquisition.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI22/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8D3D9E97-C5F5-4FB4-86EE-5F65DC765E26}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI2.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Cornell University</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI22</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI22</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Cornell University</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI22</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D6F65A11-11B8-48BB-895A-CF7463F1A0F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DataAcquisition.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
