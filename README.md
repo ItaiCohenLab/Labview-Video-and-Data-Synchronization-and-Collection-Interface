@@ -1,6 +1,8 @@
 # Labview Video and Data Synchronization and Collection Interface
  A Labview program for synchronizing externally triggered camera video and Labview DAQ data, with an intuitive interface.
 
+You can find the latest release here:
+https://github.com/jtpelster/Labview-Video-and-Data-Synchronization-and-Collection-Interface/releases/tag/v0.1.0
 
 ![image](https://github.com/user-attachments/assets/73e00abd-3706-4547-8195-26ff0fec388d)
 
